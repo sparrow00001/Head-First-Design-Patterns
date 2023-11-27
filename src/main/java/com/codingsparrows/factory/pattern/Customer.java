@@ -7,7 +7,7 @@ public class Customer {
 		HydrabadiBiryaniCaffee caffee = new HydrabadiBiryaniCaffee();
 
 		caffee.orderBiryani("Veg");
-		// System.out.println("Please enjoy your "+ caffee.getClass().getName());
+		
 	}
 
 }
