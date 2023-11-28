@@ -1,4 +1,4 @@
-package com.codingsparrows.factory.pattern;
+package com.codingsparrows.factory.pattern.BiryaniFactory;
 
 import java.util.ArrayList;
 import java.util.List;

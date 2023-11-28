@@ -1,4 +1,4 @@
-package com.codingsparrows.factory.pattern;
+package com.codingsparrows.factory.pattern.BiryaniFactory;
 
 public class Customer {
 
