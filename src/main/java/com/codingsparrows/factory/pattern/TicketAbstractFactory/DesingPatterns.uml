@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_bG6kkI4SEe6bpqxgWYl3vw" name="DesingPatterns">
+    <eAnnotations xmi:id="_cRDccI4SEe6bpqxgWYl3vw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_cREDgI4SEe6bpqxgWYl3vw" source="codegen">
+        <details xmi:id="_cREDgY4SEe6bpqxgWYl3vw" key="codegenDirectory" value="/DesingPatterns/src/main/java"/>
+        <details xmi:id="_dPgBsI4SEe6bpqxgWYl3vw" key="AssociatedSourceCode" value="/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/AirportTicket.java;3124773000/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/DelhiMetro.java;343570298/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/DelhiMetroTicketGenerator.java;1726022831/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/KolkataMetro.java;3132067570/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/KolkataMetroTicketGenerator.java;1971973223/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/Metro.java;1786928752/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/MonthlyPass.java;51814394/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/MumbaiMetro.java;1390012292/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/RegularTicket.java;2733299735/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/Passanger.java;618360502/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/MumbaiMetroTicketGenerator.java;56382952/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/Ticket.java;2630115509/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/TicketGenerator.java;3232777582/1;/DesingPatterns/src/main/java/com/codingsparrows/factory/pattern/TicketAbstractFactory/TicketType.java;3895864934/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_c1p-UI4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_c1qlYI4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_c1qlYY4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_c1qlYo4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_c1rMcI4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_c1rMcY4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_c1rMco4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_c1sakI4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_c1u20I4SEe6bpqxgWYl3vw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cxtScI4SEe6bpqxgWYl3vw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cxugkI4SEe6bpqxgWYl3vw" name="codingsparrows">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cxvusI4SEe6bpqxgWYl3vw" name="factory">
+          <packagedElement xmi:type="uml:Package" xmi:id="_cxvusY4SEe6bpqxgWYl3vw" name="pattern">
+            <packagedElement xmi:type="uml:Package" xmi:id="_cx9xII4SEe6bpqxgWYl3vw" name="TicketAbstractFactory">
+              <packagedElement xmi:type="uml:Class" xmi:id="_c1ipkI4SEe6bpqxgWYl3vw" name="AirportTicket">
+                <generalization xmi:id="_c-dVAI4SEe6bpqxgWYl3vw" general="_c4TpsI4SEe6bpqxgWYl3vw"/>
+                <ownedAttribute xmi:id="_c-9rUI4SEe6bpqxgWYl3vw" name="generator" visibility="package" type="_c5A0UI4SEe6bpqxgWYl3vw" association="_dANBcI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_hE8I4SEe6bpqxgWYl3vw" name="AirportTicket" specification="_c-bf0I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_hE8Y4SEe6bpqxgWYl3vw" name="generator" type="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_hE8o4SEe6bpqxgWYl3vw" type="_c1ipkI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>to=generator.getTo();&#xD;
+		from=generator.getFrom();&#xD;
+		fare=generator.getFare();&#xD;
+		metroName=generator.getMetroName();&#xD;
+		ticketId=generator.getId();&#xD;
+		ticketMaterial =generator.getTicketMaterial();&#xD;
+		ticketType=generator.getTicketType();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-bf0I4SEe6bpqxgWYl3vw" name="AirportTicket" method="_c_hE8I4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c-ct8I4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c-ct8Y4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c-cG4I4SEe6bpqxgWYl3vw" name="generator" type="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-ct8o4SEe6bpqxgWYl3vw" type="_c1ipkI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c13ZsI4SEe6bpqxgWYl3vw" name="DelhiMetro">
+                <generalization xmi:id="_c-hmcI4SEe6bpqxgWYl3vw" general="_c3UyQI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_nyoI4SEe6bpqxgWYl3vw" name="generateTicket" specification="_c-ejII4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_nyoY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_nyoo4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>TicketGenerator generator = new DelhiMetroTicketGenerator(t);&#xD;
+		Ticket ticket=null;&#xD;
+		&#xD;
+		System.out.println(&quot;Welcome at Delhi Metro &quot;);&#xD;
+			if(t==null) {&#xD;
+				System.out.println(&quot;Ticket type can not be blank..!!&quot;);&#xD;
+			}&#xD;
+			else if(t.type.equalsIgnoreCase(&quot;regular&quot;)) {&#xD;
+				System.out.println(&quot;You have choosen the regular ticket at DMRC&quot;);&#xD;
+				ticket = new RegularTicket(generator); &#xD;
+			}&#xD;
+			else if(t.type.equalsIgnoreCase(&quot;pass&quot;)) {&#xD;
+				System.out.println(&quot;You have choosen the monthly pass at DMRC&quot;);&#xD;
+				ticket= new MonthlyPass(generator);&#xD;
+			}&#xD;
+			else if(t.type.equalsIgnoreCase(&quot;airport&quot;)) {&#xD;
+				System.out.println(&quot;You have choosen the airport ticket at DMRC&quot;);&#xD;
+				ticket= new AirportTicket(generator);&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;Please choose a vaild ticket System&quot;);&#xD;
+				ticket=null;&#xD;
+			}&#xD;
+		return ticket;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-ejII4SEe6bpqxgWYl3vw" name="generateTicket" method="_c_nyoI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c-fKMI4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-fxQI4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c16dAI4SEe6bpqxgWYl3vw" name="DelhiMetroTicketGenerator">
+                <generalization xmi:id="_c-kCsI4SEe6bpqxgWYl3vw" general="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                <ownedAttribute xmi:id="_c--5cI4SEe6bpqxgWYl3vw" name="ticketType" visibility="package" type="_c5NooI4SEe6bpqxgWYl3vw" association="_dAPdsI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_oZsI4SEe6bpqxgWYl3vw" name="DelhiMetroTicketGenerator" specification="_c-i0kI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_pAwI4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_pAwY4SEe6bpqxgWYl3vw" type="_c16dAI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>ticketType=t;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_pAwo4SEe6bpqxgWYl3vw" name="getId" specification="_c185QI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_pAw44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Getting Ticket ID&quot;);&#xD;
+		return Math.round(Math.random() *1000000)+&quot;DMRC&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_pn0I4SEe6bpqxgWYl3vw" name="getTicketMaterial" specification="_c2MJ0Y4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_pn0Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Plastic Coin is used in the DMRC&quot;);&#xD;
+		return &quot;Plastic coin&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_qO4I4SEe6bpqxgWYl3vw" name="getFrom" specification="_c2P0MI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_qO4Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Journey starts from &quot;+ ticketType.getFrom());&#xD;
+		return ticketType.getFrom();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_qO4o4SEe6bpqxgWYl3vw" name="getTo" specification="_c2SQco4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_qO444SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Journey ends at &quot;+ ticketType.getTo());&#xD;
+		return ticketType.getTo();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_q18I4SEe6bpqxgWYl3vw" name="getFare" specification="_c2UssI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_q18Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;It costs only 60 INR for this ticket&quot;);&#xD;
+		return 60.00f;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_q18o4SEe6bpqxgWYl3vw" name="getMetroName" specification="_c2Y-II4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_q1844SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;DMRC wishes you a very happy Journey&quot;);&#xD;
+		return &quot;DMRC&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_rdAI4SEe6bpqxgWYl3vw" name="getTicketType" specification="_c2d2oI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_rdAY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;It is a &quot;+ ticketType.getType() +&quot; ticket.&quot;);&#xD;
+		return ticketType.getType();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c185QI4SEe6bpqxgWYl3vw" name="getId" method="_c_pAwo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2BKsI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c2MJ0Y4SEe6bpqxgWYl3vw" name="getTicketMaterial" method="_c_pn0I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2N_AI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c2P0MI4SEe6bpqxgWYl3vw" name="getFrom" method="_c_qO4I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2QbQI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c2SQco4SEe6bpqxgWYl3vw" name="getTo" method="_c_qO4o4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2S3gI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c2UssI4SEe6bpqxgWYl3vw" name="getFare" method="_c_q18I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2VTwI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c2Y-II4SEe6bpqxgWYl3vw" name="getMetroName" method="_c_q18o4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2baYI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c2d2oI4SEe6bpqxgWYl3vw" name="getTicketType" method="_c_rdAI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2fr0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c-i0kI4SEe6bpqxgWYl3vw" name="DelhiMetroTicketGenerator" method="_c_oZsI4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c-jboI4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c-jboY4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c-i0kY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-jboo4SEe6bpqxgWYl3vw" type="_c16dAI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c2qD4I4SEe6bpqxgWYl3vw" name="KolkataMetro">
+                <generalization xmi:id="_c-ntEo4SEe6bpqxgWYl3vw" general="_c3UyQI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_sEEI4SEe6bpqxgWYl3vw" name="generateTicket" specification="_c-l34I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_sEEY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_sEEo4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>TicketGenerator generator = new KolkataMetroTicketGenerator(t);&#xD;
+		Ticket ticket=null;&#xD;
+		&#xD;
+		System.out.println(&quot;Welcome at Kolkata Metro &quot;);&#xD;
+			if(t==null) {&#xD;
+				System.out.println(&quot;Ticket type can not be blank..!!&quot;);&#xD;
+			}&#xD;
+			else if(t.type.equalsIgnoreCase(&quot;regular&quot;)) {&#xD;
+				System.out.println(&quot;You have choosen the regular ticket at KMRC&quot;);&#xD;
+				ticket = new RegularTicket(generator); &#xD;
+			}&#xD;
+			else if(t.type.equalsIgnoreCase(&quot;pass&quot;)) {&#xD;
+				System.out.println(&quot;You have choosen the monthly pass at KMRC&quot;);&#xD;
+				ticket= new MonthlyPass(generator);&#xD;
+			}&#xD;
+			else if(t.type.equalsIgnoreCase(&quot;airport&quot;)) {&#xD;
+				System.out.println(&quot;You have choosen the airport ticket at KMRC&quot;);&#xD;
+				ticket= new AirportTicket(generator);&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;Please choose a vaild ticket System&quot;);&#xD;
+				ticket=null;&#xD;
+			}&#xD;
+		return ticket;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-l34I4SEe6bpqxgWYl3vw" name="generateTicket" method="_c_sEEI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c-l34Y4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-me8I4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c27JoI4SEe6bpqxgWYl3vw" name="KolkataMetroTicketGenerator">
+                <generalization xmi:id="_c-qJUI4SEe6bpqxgWYl3vw" general="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                <ownedAttribute xmi:id="_c_AuoI4SEe6bpqxgWYl3vw" name="ticketType" visibility="package" type="_c5NooI4SEe6bpqxgWYl3vw" association="_dARS4I4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_tSMI4SEe6bpqxgWYl3vw" name="KolkataMetroTicketGenerator" specification="_c-o7MI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_tSMY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_tSMo4SEe6bpqxgWYl3vw" type="_c27JoI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>ticketType = t;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_t5QI4SEe6bpqxgWYl3vw" name="getId" specification="_c28-0I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_t5QY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Getting Ticket ID&quot;);&#xD;
+		return Math.round(Math.random() * 1000000) + &quot;KMRC&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_t5Qo4SEe6bpqxgWYl3vw" name="getTicketMaterial" specification="_c3ACIY4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_t5Q44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Plastic Coin is used in the KMRC&quot;);&#xD;
+		return &quot;Paper ticket&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_ugUI4SEe6bpqxgWYl3vw" name="getFrom" specification="_c3CeYI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_ugUY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Journey starts from &quot; + ticketType.getFrom());&#xD;
+		return ticketType.getFrom();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_ugUo4SEe6bpqxgWYl3vw" name="getTo" specification="_c3FhsI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_ugU44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Journey ends at &quot; + ticketType.getTo());&#xD;
+		return ticketType.getTo();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_vHYI4SEe6bpqxgWYl3vw" name="getFare" specification="_c3JMEo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_vHYY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;It costs only 80 INR for this ticket&quot;);&#xD;
+		return 80.00f;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_vucI4SEe6bpqxgWYl3vw" name="getMetroName" specification="_c3LoUY4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_vucY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;KMRC wishes you a very happy Journey&quot;);&#xD;
+		return &quot;KMRC&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_vuco4SEe6bpqxgWYl3vw" name="getTicketType" specification="_c3Oroo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_vuc44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;It is a &quot; + ticketType.getType() + &quot; ticket.&quot;);&#xD;
+		return ticketType.getType();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c28-0I4SEe6bpqxgWYl3vw" name="getId" method="_c_t5QI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c2-M8I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3ACIY4SEe6bpqxgWYl3vw" name="getTicketMaterial" method="_c_t5Qo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3ApMI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3CeYI4SEe6bpqxgWYl3vw" name="getFrom" method="_c_ugUI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3DFcI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3FhsI4SEe6bpqxgWYl3vw" name="getTo" method="_c_ugUo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3Gv0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3JMEo4SEe6bpqxgWYl3vw" name="getFare" method="_c_vHYI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3JzII4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3LoUY4SEe6bpqxgWYl3vw" name="getMetroName" method="_c_vucI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3MPYI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3Oroo4SEe6bpqxgWYl3vw" name="getTicketType" method="_c_vuco4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3P5wI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c-o7MI4SEe6bpqxgWYl3vw" name="KolkataMetroTicketGenerator" method="_c_tSMI4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c-piQI4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c-piQY4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c-o7MY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-piQo4SEe6bpqxgWYl3vw" type="_c27JoI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c3UyQI4SEe6bpqxgWYl3vw" name="Metro" isAbstract="true">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_wVgI4SEe6bpqxgWYl3vw" name="orderTicket" specification="_c-r-gI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_wVgY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_wVgo4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Lets, start ordering the ticket..!!&quot;);&#xD;
+		return generateTicket(t);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-r-gI4SEe6bpqxgWYl3vw" name="orderTicket" method="_c_wVgI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c-r-gY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-slkI4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c-tMoI4SEe6bpqxgWYl3vw" name="generateTicket" isAbstract="true">
+                  <ownedParameter xmi:id="_c-tMoY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-tzsI4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c3ZDsI4SEe6bpqxgWYl3vw" name="MonthlyPass">
+                <generalization xmi:id="_c-wP8I4SEe6bpqxgWYl3vw" general="_c4TpsI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_w8kI4SEe6bpqxgWYl3vw" name="MonthlyPass" specification="_c-uawI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_w8kY4SEe6bpqxgWYl3vw" name="generator" type="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_w8ko4SEe6bpqxgWYl3vw" type="_c3ZDsI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>to=generator.getTo();&#xD;
+		from=generator.getFrom();&#xD;
+		fare=generator.getFare();&#xD;
+		metroName=generator.getMetroName();&#xD;
+		ticketId=generator.getId();&#xD;
+		ticketMaterial =generator.getTicketMaterial();&#xD;
+		ticketType=generator.getTicketType();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-uawI4SEe6bpqxgWYl3vw" name="MonthlyPass" method="_c_w8kI4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c-vB0I4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c-vB0Y4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c-uawY4SEe6bpqxgWYl3vw" name="generator" type="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-vB0o4SEe6bpqxgWYl3vw" type="_c3ZDsI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c3cuEI4SEe6bpqxgWYl3vw" name="MumbaiMetro">
+                <generalization xmi:id="_c-zTQY4SEe6bpqxgWYl3vw" general="_c3UyQI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_xjoI4SEe6bpqxgWYl3vw" name="generateTicket" specification="_c-w3AI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_xjoY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_xjoo4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>TicketGenerator generator = new MumbaiMetroTicketGenerator(t);&#xD;
+		Ticket ticket = null;&#xD;
+&#xD;
+		System.out.println(&quot;Welcome at Mumbai Metro &quot;);&#xD;
+		if (t == null) {&#xD;
+			System.out.println(&quot;Ticket type can not be blank..!!&quot;);&#xD;
+		} else if (t.type.equalsIgnoreCase(&quot;regular&quot;)) {&#xD;
+			System.out.println(&quot;You have choosen the regular ticket at MMRC&quot;);&#xD;
+			ticket = new RegularTicket(generator);&#xD;
+		} else if (t.type.equalsIgnoreCase(&quot;pass&quot;)) {&#xD;
+			System.out.println(&quot;You have choosen the monthly pass at MMRC&quot;);&#xD;
+			ticket = new MonthlyPass(generator);&#xD;
+		} else if (t.type.equalsIgnoreCase(&quot;airport&quot;)) {&#xD;
+			System.out.println(&quot;You have choosen the airport ticket at MMRC&quot;);&#xD;
+			ticket = new AirportTicket(generator);&#xD;
+		} else {&#xD;
+			System.out.println(&quot;Please choose a vaild ticket System&quot;);&#xD;
+			ticket = null;&#xD;
+		}&#xD;
+		return ticket;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-w3AI4SEe6bpqxgWYl3vw" name="generateTicket" method="_c_xjoI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c-w3AY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-xeEI4SEe6bpqxgWYl3vw" type="_c4TpsI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c3fxYI4SEe6bpqxgWYl3vw" name="RegularTicket">
+                <generalization xmi:id="_c-1IcI4SEe6bpqxgWYl3vw" general="_c4TpsI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_yKsI4SEe6bpqxgWYl3vw" name="RegularTicket" specification="_c-z6UI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_yKsY4SEe6bpqxgWYl3vw" name="generator" type="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_yKso4SEe6bpqxgWYl3vw" type="_c3fxYI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>to=generator.getTo();&#xD;
+		from=generator.getFrom();&#xD;
+		fare=generator.getFare();&#xD;
+		metroName=generator.getMetroName();&#xD;
+		ticketId=generator.getId();&#xD;
+		ticketMaterial =generator.getTicketMaterial();&#xD;
+		ticketType=generator.getTicketType();&#xD;
+		&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c-z6UI4SEe6bpqxgWYl3vw" name="RegularTicket" method="_c_yKsI4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c-0hYI4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c-0hYY4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c-z6UY4SEe6bpqxgWYl3vw" name="generator" type="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-0hYo4SEe6bpqxgWYl3vw" type="_c3fxYI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c3jbwI4SEe6bpqxgWYl3vw" name="Passanger">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_yxwI4SEe6bpqxgWYl3vw" name="main" specification="_c3kp4I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_yxwY4SEe6bpqxgWYl3vw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c_yxwo4SEe6bpqxgWYl3vw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>Metro metro = new DelhiMetro();&#xD;
+		Ticket t = metro.orderTicket(new TicketType(&quot;Delhi&quot;, &quot;Gurugram&quot;, &quot;airport&quot;));&#xD;
+		System.out.println(t);&#xD;
+		&#xD;
+		Metro metro2 = new KolkataMetro();&#xD;
+		Ticket t1 = metro2.orderTicket(new TicketType(&quot;A&quot;, &quot;B&quot;, &quot;regular&quot;));&#xD;
+		System.out.println(t1);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c3kp4I4SEe6bpqxgWYl3vw" name="main" isStatic="true" method="_c_yxwI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3kp4Y4SEe6bpqxgWYl3vw" name="args">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c3nGII4SEe6bpqxgWYl3vw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c3oUQI4SEe6bpqxgWYl3vw" name="MumbaiMetroTicketGenerator">
+                <generalization xmi:id="_c-29oI4SEe6bpqxgWYl3vw" general="_c5A0UI4SEe6bpqxgWYl3vw"/>
+                <ownedAttribute xmi:id="_c_Cj0I4SEe6bpqxgWYl3vw" name="ticketType" visibility="package" type="_c5NooI4SEe6bpqxgWYl3vw" association="_dATIEI4SEe6bpqxgWYl3vw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_zY0I4SEe6bpqxgWYl3vw" name="MumbaiMetroTicketGenerator" specification="_c-1vgI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_zY0Y4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c_zY0o4SEe6bpqxgWYl3vw" type="_c3oUQI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>ticketType=t;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_zY044SEe6bpqxgWYl3vw" name="getId" specification="_c3r-oI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_zY1I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Getting Ticket ID&quot;);&#xD;
+		return Math.round(Math.random() * 1000000) + &quot;MMRC&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_z_4I4SEe6bpqxgWYl3vw" name="getTicketMaterial" specification="_c3tMwo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_z_4Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Plastic Coin is used in the MMRC&quot;);&#xD;
+		return &quot;Plastic coin&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_z_4o4SEe6bpqxgWYl3vw" name="getFrom" specification="_c329wY4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_z_444SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Journey starts from &quot; + ticketType.getFrom());&#xD;
+		return ticketType.getFrom();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_0m8I4SEe6bpqxgWYl3vw" name="getTo" specification="_c372Qo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_0m8Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Journey ends at &quot; + ticketType.getTo());&#xD;
+		return ticketType.getTo();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_0m8o4SEe6bpqxgWYl3vw" name="getFare" specification="_c4Cj8I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_0m844SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;It costs only 100 INR for this ticket&quot;);&#xD;
+		return 100.00f;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_1OAI4SEe6bpqxgWYl3vw" name="getMetroName" specification="_c4IqkY4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_1OAY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;MMRC wishes you a very happy Journey&quot;);&#xD;
+		return &quot;MMRC&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_11EI4SEe6bpqxgWYl3vw" name="getTicketType" specification="_c4Kfwo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_11EY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>System.out.println(&quot;It is a &quot; + ticketType.getType() + &quot; ticket.&quot;);&#xD;
+		return ticketType.getType();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c3r-oI4SEe6bpqxgWYl3vw" name="getId" method="_c_zY044SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3slsI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c3tMwo4SEe6bpqxgWYl3vw" name="getTicketMaterial" method="_c_z_4I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c3tz0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c329wY4SEe6bpqxgWYl3vw" name="getFrom" method="_c_z_4o4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c33k0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c372Qo4SEe6bpqxgWYl3vw" name="getTo" method="_c_0m8I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c38dUI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4Cj8I4SEe6bpqxgWYl3vw" name="getFare" method="_c_0m8o4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4DyEI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4IqkY4SEe6bpqxgWYl3vw" name="getMetroName" method="_c_1OAI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4JRoI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4Kfwo4SEe6bpqxgWYl3vw" name="getTicketType" method="_c_11EI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4LG0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c-1vgI4SEe6bpqxgWYl3vw" name="MumbaiMetroTicketGenerator" method="_c_zY0I4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c-2WkI4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c-2WkY4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c-1vgY4SEe6bpqxgWYl3vw" name="t" type="_c5NooI4SEe6bpqxgWYl3vw"/>
+                  <ownedParameter xmi:id="_c-2Wko4SEe6bpqxgWYl3vw" type="_c3oUQI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c4TpsI4SEe6bpqxgWYl3vw" name="Ticket" isAbstract="true">
+                <ownedAttribute xmi:id="_c_EZAI4SEe6bpqxgWYl3vw" name="from" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_FnII4SEe6bpqxgWYl3vw" name="to" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_G1QI4SEe6bpqxgWYl3vw" name="fare" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_IDYY4SEe6bpqxgWYl3vw" name="ticketId" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_J4kI4SEe6bpqxgWYl3vw" name="ticketType" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_LGsY4SEe6bpqxgWYl3vw" name="metroName" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_M74I4SEe6bpqxgWYl3vw" name="ticketMaterial" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_3qQI4SEe6bpqxgWYl3vw" name="getTicketId" specification="_c4dasI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_3qQY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return ticketId;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_4RUI4SEe6bpqxgWYl3vw" name="setTicketId" specification="_c4eo0I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_4RUY4SEe6bpqxgWYl3vw" name="ticketId">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.ticketId = ticketId;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_4RUo4SEe6bpqxgWYl3vw" name="getTicketMaterial" specification="_c4f28I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_4RU44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return ticketMaterial;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_44YI4SEe6bpqxgWYl3vw" name="setTicketMaterial" specification="_c4kvcI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_44YY4SEe6bpqxgWYl3vw" name="ticketMaterial">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.ticketMaterial = ticketMaterial;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_5fcI4SEe6bpqxgWYl3vw" name="getMetroName" specification="_c4lWgI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_5fcY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return metroName;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_5fco4SEe6bpqxgWYl3vw" name="setMetroName" specification="_c4mkoI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_5fc44SEe6bpqxgWYl3vw" name="metroName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.metroName = metroName;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_5fdI4SEe6bpqxgWYl3vw" name="getFrom" specification="_c4nywI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_5fdY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return from;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_6GgI4SEe6bpqxgWYl3vw" name="setFrom" specification="_c4pA4I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_6GgY4SEe6bpqxgWYl3vw" name="from">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.from = from;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_6Ggo4SEe6bpqxgWYl3vw" name="getTo" specification="_c4qPAI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_6Gg44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return to;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_6tkI4SEe6bpqxgWYl3vw" name="setTo" specification="_c4rdII4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_6tkY4SEe6bpqxgWYl3vw" name="to">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.to = to;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_6tko4SEe6bpqxgWYl3vw" name="getFare" specification="_c4t5YI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_6tk44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return fare;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_7UoI4SEe6bpqxgWYl3vw" name="setFare" specification="_c4w8sI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_7UoY4SEe6bpqxgWYl3vw" name="fare">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.fare = fare;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_7Uoo4SEe6bpqxgWYl3vw" name="getTicketType" specification="_c4xjwI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_7Uo44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return ticketType;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_77sI4SEe6bpqxgWYl3vw" name="setTicketType" specification="_c4yx4I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_77sY4SEe6bpqxgWYl3vw" name="ticketType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.ticketType = ticketType;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_77so4SEe6bpqxgWYl3vw" name="toString" specification="_c4zY8I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_77s44SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return &quot;Ticket [from=&quot; + from + &quot;, to=&quot; + to + &quot;, fare=&quot; + fare + &quot;, ticketId=&quot; + ticketId + &quot;, ticketType=&quot;&#xD;
+				+ ticketType + &quot;, metroName=&quot; + metroName + &quot;, ticketMaterial=&quot; + ticketMaterial + &quot;]&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c4dasI4SEe6bpqxgWYl3vw" name="getTicketId" method="_c_3qQI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4eBwI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4eo0I4SEe6bpqxgWYl3vw" name="setTicketId" method="_c_4RUI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4fP4I4SEe6bpqxgWYl3vw" name="ticketId">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4f28I4SEe6bpqxgWYl3vw" name="getTicketMaterial" method="_c_4RUo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4i6QI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4kvcI4SEe6bpqxgWYl3vw" name="setTicketMaterial" method="_c_44YI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4kvcY4SEe6bpqxgWYl3vw" name="ticketMaterial">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4lWgI4SEe6bpqxgWYl3vw" name="getMetroName" method="_c_5fcI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4l9kI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4mkoI4SEe6bpqxgWYl3vw" name="setMetroName" method="_c_5fco4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4mkoY4SEe6bpqxgWYl3vw" name="metroName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4nywI4SEe6bpqxgWYl3vw" name="getFrom" method="_c_5fdI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4oZ0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4pA4I4SEe6bpqxgWYl3vw" name="setFrom" method="_c_6GgI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4pA4Y4SEe6bpqxgWYl3vw" name="from">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4qPAI4SEe6bpqxgWYl3vw" name="getTo" method="_c_6Ggo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4q2EI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4rdII4SEe6bpqxgWYl3vw" name="setTo" method="_c_6tkI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4srQI4SEe6bpqxgWYl3vw" name="to">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4t5YI4SEe6bpqxgWYl3vw" name="getFare" method="_c_6tko4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4ugcI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4w8sI4SEe6bpqxgWYl3vw" name="setFare" method="_c_7UoI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4w8sY4SEe6bpqxgWYl3vw" name="fare">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4xjwI4SEe6bpqxgWYl3vw" name="getTicketType" method="_c_7Uoo4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4yK0I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4yx4I4SEe6bpqxgWYl3vw" name="setTicketType" method="_c_77sI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c4yx4Y4SEe6bpqxgWYl3vw" name="ticketType">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c4zY8I4SEe6bpqxgWYl3vw" name="toString" method="_c_77so4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c40nEI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c5A0UI4SEe6bpqxgWYl3vw" name="TicketGenerator" isAbstract="true">
+                <ownedOperation xmi:id="_c5DQkI4SEe6bpqxgWYl3vw" name="getId" isAbstract="true">
+                  <ownedParameter xmi:id="_c5D3oI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5EesI4SEe6bpqxgWYl3vw" name="getTicketMaterial" isAbstract="true">
+                  <ownedParameter xmi:id="_c5FFwI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5Fs0I4SEe6bpqxgWYl3vw" name="getFrom" isAbstract="true">
+                  <ownedParameter xmi:id="_c5G68I4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5G68Y4SEe6bpqxgWYl3vw" name="getTo" isAbstract="true">
+                  <ownedParameter xmi:id="_c5IwII4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5J-QI4SEe6bpqxgWYl3vw" name="getFare" isAbstract="true">
+                  <ownedParameter xmi:id="_c5KlUI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5LMYI4SEe6bpqxgWYl3vw" name="getMetroName" isAbstract="true">
+                  <ownedParameter xmi:id="_c5LzcI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5MagI4SEe6bpqxgWYl3vw" name="getTicketType" isAbstract="true">
+                  <ownedParameter xmi:id="_c5NBkI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_c5NooI4SEe6bpqxgWYl3vw" name="TicketType">
+                <ownedAttribute xmi:id="_c_PYII4SEe6bpqxgWYl3vw" name="from" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_QmQI4SEe6bpqxgWYl3vw" name="to" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_c_RNUY4SEe6bpqxgWYl3vw" name="type" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_8iwI4SEe6bpqxgWYl3vw" name="TicketType" specification="_c5Pd0I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_8iwY4SEe6bpqxgWYl3vw" name="from">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_c_8iwo4SEe6bpqxgWYl3vw" name="to">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_c_8iw44SEe6bpqxgWYl3vw" name="type">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_c_8ixI4SEe6bpqxgWYl3vw" type="_c5NooI4SEe6bpqxgWYl3vw" direction="return"/>
+                  <language>java</language>
+                  <body>this.from=from;&#xD;
+		this.to=to;&#xD;
+		this.type=type;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_9J0I4SEe6bpqxgWYl3vw" name="getFrom" specification="_c5Qr8I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_9J0Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return from;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_9w4I4SEe6bpqxgWYl3vw" name="setFrom" specification="_c5R6EI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_9w4Y4SEe6bpqxgWYl3vw" name="from">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.from = from;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_-X8I4SEe6bpqxgWYl3vw" name="getTo" specification="_c5ShII4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_-X8Y4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return to;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_-X8o4SEe6bpqxgWYl3vw" name="setTo" specification="_c5TvQI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_-X844SEe6bpqxgWYl3vw" name="to">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.to = to;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_-_AI4SEe6bpqxgWYl3vw" name="getType" specification="_c5UWUI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_-_AY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return type;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c_-_Ao4SEe6bpqxgWYl3vw" name="setType" specification="_c5U9YI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c_-_A44SEe6bpqxgWYl3vw" name="type">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.type = type;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_c__mEI4SEe6bpqxgWYl3vw" name="toString" specification="_c5WykI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c__mEY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return &quot;TicketType [from=&quot; + from + &quot;, to=&quot; + to + &quot;, type=&quot; + type + &quot;]&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_c5Pd0I4SEe6bpqxgWYl3vw" name="TicketType" method="_c_8iwI4SEe6bpqxgWYl3vw">
+                  <eAnnotations xmi:id="_c5QE4I4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_c5QE4Y4SEe6bpqxgWYl3vw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_c5Pd0Y4SEe6bpqxgWYl3vw" name="from">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_c5Pd0o4SEe6bpqxgWYl3vw" name="to">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_c5Pd044SEe6bpqxgWYl3vw" name="type">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_c5QE4o4SEe6bpqxgWYl3vw" type="_c5NooI4SEe6bpqxgWYl3vw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5Qr8I4SEe6bpqxgWYl3vw" name="getFrom" method="_c_9J0I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5RTAI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5R6EI4SEe6bpqxgWYl3vw" name="setFrom" method="_c_9w4I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5R6EY4SEe6bpqxgWYl3vw" name="from">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5ShII4SEe6bpqxgWYl3vw" name="getTo" method="_c_-X8I4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5TIMI4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5TvQI4SEe6bpqxgWYl3vw" name="setTo" method="_c_-X8o4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5TvQY4SEe6bpqxgWYl3vw" name="to">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5UWUI4SEe6bpqxgWYl3vw" name="getType" method="_c_-_AI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5UWUY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5U9YI4SEe6bpqxgWYl3vw" name="setType" method="_c_-_Ao4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5VkcI4SEe6bpqxgWYl3vw" name="type">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_c5WykI4SEe6bpqxgWYl3vw" name="toString" method="_c__mEI4SEe6bpqxgWYl3vw">
+                  <ownedParameter xmi:id="_c5WykY4SEe6bpqxgWYl3vw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_dANBcI4SEe6bpqxgWYl3vw" name="" memberEnd="_dANBcY4SEe6bpqxgWYl3vw _c-9rUI4SEe6bpqxgWYl3vw">
+                <ownedEnd xmi:id="_dANBcY4SEe6bpqxgWYl3vw" name="" type="_c1ipkI4SEe6bpqxgWYl3vw" association="_dANBcI4SEe6bpqxgWYl3vw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_dAPdsI4SEe6bpqxgWYl3vw" name="" memberEnd="_dAPdsY4SEe6bpqxgWYl3vw _c--5cI4SEe6bpqxgWYl3vw">
+                <ownedEnd xmi:id="_dAPdsY4SEe6bpqxgWYl3vw" name="" type="_c16dAI4SEe6bpqxgWYl3vw" association="_dAPdsI4SEe6bpqxgWYl3vw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_dARS4I4SEe6bpqxgWYl3vw" name="" memberEnd="_dARS4Y4SEe6bpqxgWYl3vw _c_AuoI4SEe6bpqxgWYl3vw">
+                <ownedEnd xmi:id="_dARS4Y4SEe6bpqxgWYl3vw" name="" type="_c27JoI4SEe6bpqxgWYl3vw" association="_dARS4I4SEe6bpqxgWYl3vw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_dATIEI4SEe6bpqxgWYl3vw" name="" memberEnd="_dATIEY4SEe6bpqxgWYl3vw _c_Cj0I4SEe6bpqxgWYl3vw">
+                <ownedEnd xmi:id="_dATIEY4SEe6bpqxgWYl3vw" name="" type="_c3oUQI4SEe6bpqxgWYl3vw" association="_dATIEI4SEe6bpqxgWYl3vw"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_cRI8AI4SEe6bpqxgWYl3vw">
+      <eAnnotations xmi:id="_cRSF8I4SEe6bpqxgWYl3vw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_cRikoI4SEe6bpqxgWYl3vw" base_Package="_bG6kkI4SEe6bpqxgWYl3vw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2CY0I4SEe6bpqxgWYl3vw" base_Element="_c185QI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2LiwI4SEe6bpqxgWYl3vw" base_Element="_c185QI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2MJ0I4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2OmEI4SEe6bpqxgWYl3vw" base_Element="_c2MJ0Y4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2PNII4SEe6bpqxgWYl3vw" base_Element="_c2MJ0Y4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2PNIY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2RpYI4SEe6bpqxgWYl3vw" base_Element="_c2P0MI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2SQcI4SEe6bpqxgWYl3vw" base_Element="_c2P0MI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2SQcY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2TekI4SEe6bpqxgWYl3vw" base_Element="_c2SQco4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2UFoI4SEe6bpqxgWYl3vw" base_Element="_c2SQco4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2UFoY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2Wh4I4SEe6bpqxgWYl3vw" base_Element="_c2UssI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2YXEI4SEe6bpqxgWYl3vw" base_Element="_c2UssI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2YXEY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2cogI4SEe6bpqxgWYl3vw" base_Element="_c2Y-II4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2dPkI4SEe6bpqxgWYl3vw" base_Element="_c2Y-II4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2dPkY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2g58I4SEe6bpqxgWYl3vw" base_Element="_c2d2oI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2iIEI4SEe6bpqxgWYl3vw" base_Element="_c2d2oI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c2iIEY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c2_bEI4SEe6bpqxgWYl3vw" base_Element="_c28-0I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c2_bEY4SEe6bpqxgWYl3vw" base_Element="_c28-0I4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3ACII4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3BQQI4SEe6bpqxgWYl3vw" base_Element="_c3ACIY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3B3UI4SEe6bpqxgWYl3vw" base_Element="_c3ACIY4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3B3UY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3DsgI4SEe6bpqxgWYl3vw" base_Element="_c3CeYI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3E6oI4SEe6bpqxgWYl3vw" base_Element="_c3CeYI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3E6oY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3HW4I4SEe6bpqxgWYl3vw" base_Element="_c3FhsI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3JMEI4SEe6bpqxgWYl3vw" base_Element="_c3FhsI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3JMEY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3KaMI4SEe6bpqxgWYl3vw" base_Element="_c3JMEo4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3LBQI4SEe6bpqxgWYl3vw" base_Element="_c3JMEo4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3LoUI4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3OEkI4SEe6bpqxgWYl3vw" base_Element="_c3LoUY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3OroI4SEe6bpqxgWYl3vw" base_Element="_c3LoUY4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3OroY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3Qg0I4SEe6bpqxgWYl3vw" base_Element="_c3Oroo4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3Ru8I4SEe6bpqxgWYl3vw" base_Element="_c3Oroo4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3Ru8Y4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3slsY4SEe6bpqxgWYl3vw" base_Element="_c3r-oI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c3tMwI4SEe6bpqxgWYl3vw" base_Element="_c3r-oI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3tMwY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c3z6cI4SEe6bpqxgWYl3vw" base_Element="_c3tMwo4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c32WsI4SEe6bpqxgWYl3vw" base_Element="_c3tMwo4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c329wI4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c34L4I4SEe6bpqxgWYl3vw" base_Element="_c329wY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c372QI4SEe6bpqxgWYl3vw" base_Element="_c329wY4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c372QY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c39EYI4SEe6bpqxgWYl3vw" base_Element="_c372Qo4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c39rcI4SEe6bpqxgWYl3vw" base_Element="_c372Qo4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c3-SgI4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c4HccI4SEe6bpqxgWYl3vw" base_Element="_c4Cj8I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c4IDgI4SEe6bpqxgWYl3vw" base_Element="_c4Cj8I4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c4IqkI4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c4J4sI4SEe6bpqxgWYl3vw" base_Element="_c4IqkY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c4KfwI4SEe6bpqxgWYl3vw" base_Element="_c4IqkY4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c4KfwY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c4Lt4I4SEe6bpqxgWYl3vw" base_Element="_c4Kfwo4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c4MU8I4SEe6bpqxgWYl3vw" base_Element="_c4Kfwo4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c4MU8Y4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c411MI4SEe6bpqxgWYl3vw" base_Element="_c4zY8I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c42cQI4SEe6bpqxgWYl3vw" base_Element="_c4zY8I4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c43qYI4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c5XZoI4SEe6bpqxgWYl3vw" base_Element="_c5WykI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c5YAsI4SEe6bpqxgWYl3vw" base_Element="_c5WykI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c5YAsY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c-gYUI4SEe6bpqxgWYl3vw" base_Element="_c-ejII4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c-g_YI4SEe6bpqxgWYl3vw" base_Element="_c-ejII4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c-g_YY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c-nGAI4SEe6bpqxgWYl3vw" base_Element="_c-l34I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c-ntEI4SEe6bpqxgWYl3vw" base_Element="_c-l34I4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c-ntEY4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c-yFII4SEe6bpqxgWYl3vw" base_Element="_c-w3AI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Annotations xmi:id="_c-ysMI4SEe6bpqxgWYl3vw" base_Element="_c-w3AI4SEe6bpqxgWYl3vw">
+    <annotations xmi:id="_c-zTQI4SEe6bpqxgWYl3vw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c--SYI4SEe6bpqxgWYl3vw" base_Element="_c-9rUI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_AHkI4SEe6bpqxgWYl3vw" base_Element="_c--5cI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_BVsI4SEe6bpqxgWYl3vw" base_Element="_c_AuoI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_DK4I4SEe6bpqxgWYl3vw" base_Element="_c_Cj0I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_FAEI4SEe6bpqxgWYl3vw" base_Element="_c_EZAI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_GOMI4SEe6bpqxgWYl3vw" base_Element="_c_FnII4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_IDYI4SEe6bpqxgWYl3vw" base_Element="_c_G1QI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_JRgI4SEe6bpqxgWYl3vw" base_Element="_c_IDYY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_LGsI4SEe6bpqxgWYl3vw" base_Element="_c_J4kI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_MU0I4SEe6bpqxgWYl3vw" base_Element="_c_LGsY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_Ni8I4SEe6bpqxgWYl3vw" base_Element="_c_M74I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_P_MI4SEe6bpqxgWYl3vw" base_Element="_c_PYII4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_RNUI4SEe6bpqxgWYl3vw" base_Element="_c_QmQI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_c_R0YI4SEe6bpqxgWYl3vw" base_Element="_c_RNUY4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Reference xmi:id="_dAO2oI4SEe6bpqxgWYl3vw" base_Element="_dANBcI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Reference xmi:id="_dAQr0I4SEe6bpqxgWYl3vw" base_Element="_dAPdsI4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Reference xmi:id="_dAShAI4SEe6bpqxgWYl3vw" base_Element="_dARS4I4SEe6bpqxgWYl3vw"/>
+  <UMLLabProfile:Reference xmi:id="_dAU9QI4SEe6bpqxgWYl3vw" base_Element="_dATIEI4SEe6bpqxgWYl3vw"/>
+</xmi:XMI>

@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_bM20gI4SEe6bpqxgWYl3vw">
+  <modelElement href="DesingPatterns.uml#_cx9xII4SEe6bpqxgWYl3vw"/>
+  <visualProperties xmi:id="_0vrHcI4SEe6bpqxgWYl3vw" bold="true" italic="false" lineWidth="3.0" backgroundColor="192,192,192" lineColor="64,0,64" gradientToColor="255,255,255"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dSymQI4SEe6bpqxgWYl3vw" sourceAnchor="254.0,0.0" targetAnchor="185.0,668.0" superClass="_dVMaAI4SEe6bpqxgWYl3vw" subClass="_dTCd4I4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-1IcI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niLycI4SEe6bpqxgWYl3vw" sourceY="-28" targetX="-945" targetY="27"/>
+    <bendpoints xmi:id="_niLycY4SEe6bpqxgWYl3vw" sourceX="945" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dTHWYI4SEe6bpqxgWYl3vw" sourceAnchor="8.0,0.0" targetAnchor="185.0,668.0" superClass="_dVMaAI4SEe6bpqxgWYl3vw" subClass="_dTJLkI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-wP8I4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niLyco4SEe6bpqxgWYl3vw" sourceY="-163" targetX="-1214" targetY="27"/>
+    <bendpoints xmi:id="_niMZgI4SEe6bpqxgWYl3vw" sourceX="1214" sourceY="-163" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dTOrII4SEe6bpqxgWYl3vw" sourceAnchor="190.0,0.0" targetAnchor="175.0,101.0" superClass="_dTRHYI4SEe6bpqxgWYl3vw" subClass="_dQansI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-hmcI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niLLYI4SEe6bpqxgWYl3vw" sourceY="-28" targetX="-437" targetY="27"/>
+    <bendpoints xmi:id="_niLLYY4SEe6bpqxgWYl3vw" sourceX="437" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dT1IEI4SEe6bpqxgWYl3vw" sourceAnchor="612.0,134.0" targetAnchor="539.0,46.0" target="_dUzYcI4SEe6bpqxgWYl3vw" source="_dUFmwI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_dAPdsI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niMZgY4SEe6bpqxgWYl3vw" sourceX="98" targetX="1311" targetY="503"/>
+    <bendpoints xmi:id="_niNAkI4SEe6bpqxgWYl3vw" sourceX="98" sourceY="-503" targetX="1311"/>
+    <stereotypes xmi:id="_dT_gIY4SEe6bpqxgWYl3vw" name="Reference">
+      <modelElement href="DesingPatterns.uml#_dAQr0I4SEe6bpqxgWYl3vw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dT9D4I4SEe6bpqxgWYl3vw" text="">
+      <visualProperties xmi:id="_eFq0sI4SEe6bpqxgWYl3vw" position="-12.000000000000014,229.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dT-5EI4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="">
+      <modelElement href="DesingPatterns.uml#_dAPdsY4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFo_go4SEe6bpqxgWYl3vw" position="38.0,-43.0"/>
+      <visibility xmi:id="_dUBVUI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUAuQI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dT_gII4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="ticketType" navigable="true">
+      <modelElement href="DesingPatterns.uml#_c--5cI4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFrbwI4SEe6bpqxgWYl3vw" position="1326.0,459.0"/>
+      <visibility xmi:id="_dUBVUo4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dUBVUY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dT1vII4SEe6bpqxgWYl3vw" sourceAnchor="306.0,0.0" targetAnchor="136.0,241.0" superClass="_dWaiAI4SEe6bpqxgWYl3vw" subClass="_dUFmwI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-kCsI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niNAkY4SEe6bpqxgWYl3vw" sourceY="-28" targetX="505" targetY="27"/>
+    <bendpoints xmi:id="_niNAko4SEe6bpqxgWYl3vw" sourceX="-505" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dUgdgI4SEe6bpqxgWYl3vw" sourceAnchor="381.0,36.0" targetAnchor="175.0,101.0" superClass="_dTRHYI4SEe6bpqxgWYl3vw" subClass="_dUi5wI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-zTQY4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niNnoI4SEe6bpqxgWYl3vw" sourceX="241" targetX="-5" targetY="1042"/>
+    <bendpoints xmi:id="_niNnoY4SEe6bpqxgWYl3vw" sourceX="241" sourceY="-1015" targetX="-5" targetY="27"/>
+    <bendpoints xmi:id="_niNnoo4SEe6bpqxgWYl3vw" sourceX="246" sourceY="-1015" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dUnyQI4SEe6bpqxgWYl3vw" sourceAnchor="296.0,0.0" targetAnchor="175.0,101.0" superClass="_dTRHYI4SEe6bpqxgWYl3vw" subClass="_dUqOgI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-ntEo4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niNno44SEe6bpqxgWYl3vw" sourceY="-835" targetX="5" targetY="27"/>
+    <bendpoints xmi:id="_niNnpI4SEe6bpqxgWYl3vw" sourceX="-5" sourceY="-835" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dVnQwI4SEe6bpqxgWYl3vw" sourceAnchor="369.0,0.0" targetAnchor="272.0,120.0" target="_dWaiAI4SEe6bpqxgWYl3vw" source="_dVsJQI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_dANBcI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niOOsI4SEe6bpqxgWYl3vw" sourceY="-696" targetX="690"/>
+    <stereotypes xmi:id="_dVoe4o4SEe6bpqxgWYl3vw" name="Reference">
+      <modelElement href="DesingPatterns.uml#_dAO2oI4SEe6bpqxgWYl3vw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dVn30Y4SEe6bpqxgWYl3vw" text="">
+      <visualProperties xmi:id="_eFt4AI4SEe6bpqxgWYl3vw" position="-14.0,673.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dVoe4I4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="">
+      <modelElement href="DesingPatterns.uml#_dANBcY4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFsp4I4SEe6bpqxgWYl3vw" position="2.0,-82.0"/>
+      <visibility xmi:id="_dVq7IY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVq7II4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dVoe4Y4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="generator" navigable="true">
+      <modelElement href="DesingPatterns.uml#_c-9rUI4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFufEI4SEe6bpqxgWYl3vw" position="653.0,701.0"/>
+      <visibility xmi:id="_dVq7I44SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVq7Io4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dVn30I4SEe6bpqxgWYl3vw" sourceAnchor="446.0,73.0" targetAnchor="185.0,668.0" superClass="_dVMaAI4SEe6bpqxgWYl3vw" subClass="_dVsJQI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-dVAI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niO1wI4SEe6bpqxgWYl3vw" sourceY="147" targetX="-1190" targetY="572"/>
+    <bendpoints xmi:id="_niO1wY4SEe6bpqxgWYl3vw" sourceX="1190" sourceY="147" targetY="572"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dVxBwI4SEe6bpqxgWYl3vw" sourceAnchor="0.0,151.0" targetAnchor="270.0,360.0" target="_dUzYcI4SEe6bpqxgWYl3vw" source="_dV4WgI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_dARS4I4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niO1wo4SEe6bpqxgWYl3vw" sourceX="-911" targetY="894"/>
+    <stereotypes xmi:id="_dVy28I4SEe6bpqxgWYl3vw" name="Reference">
+      <modelElement href="DesingPatterns.uml#_dAShAI4SEe6bpqxgWYl3vw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dVyP4I4SEe6bpqxgWYl3vw" text="">
+      <visualProperties xmi:id="_eFw7UI4SEe6bpqxgWYl3vw" position="657.0,-14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dVyP4Y4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="">
+      <modelElement href="DesingPatterns.uml#_dARS4Y4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFvtMI4SEe6bpqxgWYl3vw" position="-50.0,-39.0"/>
+      <visibility xmi:id="_dV16QY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV16QI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dVyP4o4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="ticketType" navigable="true">
+      <modelElement href="DesingPatterns.uml#_c_AuoI4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFw7UY4SEe6bpqxgWYl3vw" position="441.0,856.0"/>
+      <visibility xmi:id="_dV16Q44SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dV16Qo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dVxo0I4SEe6bpqxgWYl3vw" sourceAnchor="0.0,134.0" targetAnchor="136.0,241.0" superClass="_dWaiAI4SEe6bpqxgWYl3vw" subClass="_dV4WgI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-qJUI4SEe6bpqxgWYl3vw"/>
+    <bendpoints xmi:id="_niQD4I4SEe6bpqxgWYl3vw" sourceX="-566" targetX="-326" targetY="877"/>
+    <bendpoints xmi:id="_niQq8I4SEe6bpqxgWYl3vw" sourceX="-566" sourceY="-850" targetX="-326" targetY="27"/>
+    <bendpoints xmi:id="_niQq8Y4SEe6bpqxgWYl3vw" sourceX="-240" sourceY="-850" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_dWHnEI4SEe6bpqxgWYl3vw" sourceAnchor="0.0,134.0" targetAnchor="287.0,360.0" target="_dUzYcI4SEe6bpqxgWYl3vw" source="_dWOUwI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_dATIEI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_m15UMI4SEe6bpqxgWYl3vw" position="-934.0,815.0"/>
+    <bendpoints xmi:id="_niQq8o4SEe6bpqxgWYl3vw" sourceX="-343" targetY="541"/>
+    <stereotypes xmi:id="_dWJcQ44SEe6bpqxgWYl3vw" name="Reference">
+      <modelElement href="DesingPatterns.uml#_dAU9QI4SEe6bpqxgWYl3vw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_dWJcQI4SEe6bpqxgWYl3vw" text="">
+      <visualProperties xmi:id="_eFzXkI4SEe6bpqxgWYl3vw" position="94.0,-16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_dWJcQY4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="">
+      <modelElement href="DesingPatterns.uml#_dATIEY4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFyJcI4SEe6bpqxgWYl3vw" position="-51.0,-40.0"/>
+      <visibility xmi:id="_dWL4gY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWL4gI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_dWJcQo4SEe6bpqxgWYl3vw" aggregationKind="NONE" name="ticketType" navigable="true">
+      <modelElement href="DesingPatterns.uml#_c_Cj0I4SEe6bpqxgWYl3vw"/>
+      <visualProperties xmi:id="_eFz-oI4SEe6bpqxgWYl3vw" position="-118.0,500.9999999999999"/>
+      <visibility xmi:id="_dWL4g44SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dWL4go4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_dWI1MI4SEe6bpqxgWYl3vw" sourceAnchor="341.0,0.0" targetAnchor="136.0,241.0" superClass="_dWaiAI4SEe6bpqxgWYl3vw" subClass="_dWOUwI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c-29oI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_mm5O4I4SEe6bpqxgWYl3vw" position="-934.0,815.0"/>
+    <bendpoints xmi:id="_niRSAI4SEe6bpqxgWYl3vw" sourceY="-380" targetX="30" targetY="27"/>
+    <bendpoints xmi:id="_niRSAY4SEe6bpqxgWYl3vw" sourceX="-30" sourceY="-380" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dQansI4SEe6bpqxgWYl3vw" name="DelhiMetro" generalizations="_dTOrII4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c13ZsI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dQansY4SEe6bpqxgWYl3vw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dQanso4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dQans44SEe6bpqxgWYl3vw" name="generateTicket">
+      <modelElement href="DesingPatterns.uml#_c-ejII4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dQantI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c-gYUI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dQantY4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c-g_YI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dQanto4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dQant44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dQanuI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-fxQI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dQanuY4SEe6bpqxgWYl3vw" name="Ticket">
+          <modelElement href="DesingPatterns.uml#_c4TpsI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dQanuo4SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-fKMI4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dQanu44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dQanvI4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dTCd4I4SEe6bpqxgWYl3vw" name="RegularTicket" generalizations="_dSymQI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c3fxYI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dTCd4Y4SEe6bpqxgWYl3vw" position="-61.0,552.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dTCd4o4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dTCd444SEe6bpqxgWYl3vw" name="RegularTicket">
+      <modelElement href="DesingPatterns.uml#_c-z6UI4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dTCd5I4SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dTCd5Y4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dTCd5o4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dTCd544SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-0hYo4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dTCd6I4SEe6bpqxgWYl3vw" name="RegularTicket">
+          <modelElement href="DesingPatterns.uml#_c3fxYI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dTCd6Y4SEe6bpqxgWYl3vw" name="generator">
+        <modelElement href="DesingPatterns.uml#_c-z6UY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dTCd6o4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dTCd644SEe6bpqxgWYl3vw" name="TicketGenerator">
+          <modelElement href="DesingPatterns.uml#_c5A0UI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dTJLkI4SEe6bpqxgWYl3vw" name="MonthlyPass" generalizations="_dTHWYI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c3ZDsI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dTJLkY4SEe6bpqxgWYl3vw" position="-84.0,687.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dTJLko4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dTJLk44SEe6bpqxgWYl3vw" name="MonthlyPass">
+      <modelElement href="DesingPatterns.uml#_c-uawI4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dTJLlI4SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dTJLlY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dTJLlo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dTJLl44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-vB0o4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dTJLmI4SEe6bpqxgWYl3vw" name="MonthlyPass">
+          <modelElement href="DesingPatterns.uml#_c3ZDsI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dTJLmY4SEe6bpqxgWYl3vw" name="generator">
+        <modelElement href="DesingPatterns.uml#_c-uawY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dTJLmo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dTJLm44SEe6bpqxgWYl3vw" name="TicketGenerator">
+          <modelElement href="DesingPatterns.uml#_c5A0UI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dTRHYI4SEe6bpqxgWYl3vw" name="Metro" abstractClass="true" subclassedBy="_dTOrII4SEe6bpqxgWYl3vw _dUgdgI4SEe6bpqxgWYl3vw _dUnyQI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c3UyQI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dTRHYY4SEe6bpqxgWYl3vw" position="482.0,-126.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dTRHYo4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dTRHY44SEe6bpqxgWYl3vw" name="orderTicket">
+      <modelElement href="DesingPatterns.uml#_c-r-gI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dTRHZI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dTRHZY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dTRHZo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-slkI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dTRHZ44SEe6bpqxgWYl3vw" name="Ticket">
+          <modelElement href="DesingPatterns.uml#_c4TpsI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dTRHaI4SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-r-gY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dTRHaY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dTRHao4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dTRHa44SEe6bpqxgWYl3vw" abstractOperation="true" name="generateTicket">
+      <modelElement href="DesingPatterns.uml#_c-tMoI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dTRHbI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dTRHbY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dTRHbo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-tzsI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dTRHb44SEe6bpqxgWYl3vw" name="Ticket">
+          <modelElement href="DesingPatterns.uml#_c4TpsI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dTRHcI4SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-tMoY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dTRHcY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dTRHco4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dTtzUI4SEe6bpqxgWYl3vw" name="Passanger">
+    <modelElement href="DesingPatterns.uml#_c3jbwI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dTtzUY4SEe6bpqxgWYl3vw" position="72.0,825.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dTtzUo4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dTtzU44SEe6bpqxgWYl3vw" name="main" staticOperation="true">
+      <modelElement href="DesingPatterns.uml#_c3kp4I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dTtzVI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dTtzVY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dTtzVo4SEe6bpqxgWYl3vw" name="args">
+        <modelElement href="DesingPatterns.uml#_c3kp4Y4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dTtzV44SEe6bpqxgWYl3vw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_dTtzWI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dUFmwI4SEe6bpqxgWYl3vw" name="DelhiMetroTicketGenerator" associationsOut="_dT1IEI4SEe6bpqxgWYl3vw" generalizations="_dT1vII4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c16dAI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dUGN0I4SEe6bpqxgWYl3vw" position="-756.0,329.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dUGN0Y4SEe6bpqxgWYl3vw" label="+"/>
+    <attributes xmi:id="_dUGN0o4SEe6bpqxgWYl3vw" name="ticketType">
+      <modelElement href="DesingPatterns.uml#_c--5cI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN044SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_AHkI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN1I4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dUGN1Y4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dUGN1o4SEe6bpqxgWYl3vw" name="TicketType">
+        <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dUGN144SEe6bpqxgWYl3vw" name="getId">
+      <modelElement href="DesingPatterns.uml#_c185QI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN2I4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2CY0I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGN2Y4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2LiwI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN2o4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGN244SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGN3I4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2BKsI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGN3Y4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGN3o4SEe6bpqxgWYl3vw" name="getTicketMaterial">
+      <modelElement href="DesingPatterns.uml#_c2MJ0Y4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN344SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2OmEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGN4I4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2PNII4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN4Y4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGN4o4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGN444SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2N_AI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGN5I4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGN5Y4SEe6bpqxgWYl3vw" name="getFrom">
+      <modelElement href="DesingPatterns.uml#_c2P0MI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN5o4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2RpYI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGN544SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2SQcI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN6I4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGN6Y4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGN6o4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2QbQI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGN644SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGN7I4SEe6bpqxgWYl3vw" name="getTo">
+      <modelElement href="DesingPatterns.uml#_c2SQco4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN7Y4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2TekI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGN7o4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2UFoI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN744SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGN8I4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGN8Y4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2S3gI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGN8o4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGN844SEe6bpqxgWYl3vw" name="getFare">
+      <modelElement href="DesingPatterns.uml#_c2UssI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN9I4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2Wh4I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGN9Y4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2YXEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN9o4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGN944SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGN-I4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2VTwI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGN-Y4SEe6bpqxgWYl3vw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGN-o4SEe6bpqxgWYl3vw" name="getMetroName">
+      <modelElement href="DesingPatterns.uml#_c2Y-II4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGN-44SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2cogI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGN_I4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2dPkI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGN_Y4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGN_o4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGN_44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2baYI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGOAI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGOAY4SEe6bpqxgWYl3vw" name="getTicketType">
+      <modelElement href="DesingPatterns.uml#_c2d2oI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUGOAo4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2g58I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUGOA44SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2iIEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUGOBI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGOBY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGOBo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2fr0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGOB44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUGOCI4SEe6bpqxgWYl3vw" name="DelhiMetroTicketGenerator">
+      <modelElement href="DesingPatterns.uml#_c-i0kI4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dUGOCY4SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dUGOCo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUGOC44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUGODI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-jboo4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUGODY4SEe6bpqxgWYl3vw" name="DelhiMetroTicketGenerator">
+          <modelElement href="DesingPatterns.uml#_c16dAI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dUGODo4SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-i0kY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUGOD44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUGOEI4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dUi5wI4SEe6bpqxgWYl3vw" name="MumbaiMetro" generalizations="_dUgdgI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c3cuEI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dUi5wY4SEe6bpqxgWYl3vw" position="30.0,981.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dUi5wo4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dUi5w44SEe6bpqxgWYl3vw" name="generateTicket">
+      <modelElement href="DesingPatterns.uml#_c-w3AI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUi5xI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c-yFII4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUi5xY4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c-ysMI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUi5xo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUi5x44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUi5yI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-xeEI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUi5yY4SEe6bpqxgWYl3vw" name="Ticket">
+          <modelElement href="DesingPatterns.uml#_c4TpsI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dUi5yo4SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-w3AY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUi5y44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUi5zI4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dUqOgI4SEe6bpqxgWYl3vw" name="KolkataMetro" generalizations="_dUnyQI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c2qD4I4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dUqOgY4SEe6bpqxgWYl3vw" position="366.0,837.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dUqOgo4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dUqOg44SEe6bpqxgWYl3vw" name="generateTicket">
+      <modelElement href="DesingPatterns.uml#_c-l34I4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUqOhI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c-nGAI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUqOhY4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c-ntEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUqOho4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUqOh44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUqOiI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-me8I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUqOiY4SEe6bpqxgWYl3vw" name="Ticket">
+          <modelElement href="DesingPatterns.uml#_c4TpsI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dUqOio4SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-l34Y4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUqOi44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUqOjI4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dVMaAI4SEe6bpqxgWYl3vw" name="Ticket" abstractClass="true" subclassedBy="_dSymQI4SEe6bpqxgWYl3vw _dTHWYI4SEe6bpqxgWYl3vw _dVn30I4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c4TpsI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dVMaAY4SEe6bpqxgWYl3vw" position="953.0,-171.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dVMaAo4SEe6bpqxgWYl3vw" label="+"/>
+    <attributes xmi:id="_dVMaA44SEe6bpqxgWYl3vw" name="from">
+      <modelElement href="DesingPatterns.uml#_c_EZAI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaBI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_FAEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaBY4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaBo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaB44SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dVMaCI4SEe6bpqxgWYl3vw" name="to">
+      <modelElement href="DesingPatterns.uml#_c_FnII4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaCY4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_GOMI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaCo4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaC44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaDI4SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dVMaDY4SEe6bpqxgWYl3vw" name="fare">
+      <modelElement href="DesingPatterns.uml#_c_G1QI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaDo4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_IDYI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaD44SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaEI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaEY4SEe6bpqxgWYl3vw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dVMaEo4SEe6bpqxgWYl3vw" name="ticketId">
+      <modelElement href="DesingPatterns.uml#_c_IDYY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaE44SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_JRgI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaFI4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaFY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaFo4SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dVMaF44SEe6bpqxgWYl3vw" name="ticketType">
+      <modelElement href="DesingPatterns.uml#_c_J4kI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaGI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_LGsI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaGY4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaGo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaG44SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dVMaHI4SEe6bpqxgWYl3vw" name="metroName">
+      <modelElement href="DesingPatterns.uml#_c_LGsY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaHY4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_MU0I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaHo4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaH44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaII4SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dVMaIY4SEe6bpqxgWYl3vw" name="ticketMaterial">
+      <modelElement href="DesingPatterns.uml#_c_M74I4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMaIo4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_Ni8I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMaI44SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVMaJI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVMaJY4SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dVMaJo4SEe6bpqxgWYl3vw" name="getTicketId">
+      <modelElement href="DesingPatterns.uml#_c4dasI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaJ44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaKI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaKY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4eBwI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaKo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMaK44SEe6bpqxgWYl3vw" name="setTicketId">
+      <modelElement href="DesingPatterns.uml#_c4eo0I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaLI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaLY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMaLo4SEe6bpqxgWYl3vw" name="ticketId">
+        <modelElement href="DesingPatterns.uml#_c4fP4I4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMaL44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaMI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMaMY4SEe6bpqxgWYl3vw" name="getTicketMaterial">
+      <modelElement href="DesingPatterns.uml#_c4f28I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaMo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaM44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaNI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4i6QI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaNY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMaNo4SEe6bpqxgWYl3vw" name="setTicketMaterial">
+      <modelElement href="DesingPatterns.uml#_c4kvcI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaN44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaOI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMaOY4SEe6bpqxgWYl3vw" name="ticketMaterial">
+        <modelElement href="DesingPatterns.uml#_c4kvcY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMaOo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaO44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMaPI4SEe6bpqxgWYl3vw" name="getMetroName">
+      <modelElement href="DesingPatterns.uml#_c4lWgI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaPY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaPo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaP44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4l9kI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaQI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMaQY4SEe6bpqxgWYl3vw" name="setMetroName">
+      <modelElement href="DesingPatterns.uml#_c4mkoI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaQo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaQ44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMaRI4SEe6bpqxgWYl3vw" name="metroName">
+        <modelElement href="DesingPatterns.uml#_c4mkoY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMaRY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaRo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMaR44SEe6bpqxgWYl3vw" name="getFrom">
+      <modelElement href="DesingPatterns.uml#_c4nywI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaSI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaSY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaSo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4oZ0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaS44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMaTI4SEe6bpqxgWYl3vw" name="setFrom">
+      <modelElement href="DesingPatterns.uml#_c4pA4I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaTY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaTo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMaT44SEe6bpqxgWYl3vw" name="from">
+        <modelElement href="DesingPatterns.uml#_c4pA4Y4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMaUI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaUY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMaUo4SEe6bpqxgWYl3vw" name="getTo">
+      <modelElement href="DesingPatterns.uml#_c4qPAI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaU44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaVI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaVY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4q2EI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaVo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMaV44SEe6bpqxgWYl3vw" name="setTo">
+      <modelElement href="DesingPatterns.uml#_c4rdII4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaWI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaWY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMaWo4SEe6bpqxgWYl3vw" name="to">
+        <modelElement href="DesingPatterns.uml#_c4srQI4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMaW44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaXI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMaXY4SEe6bpqxgWYl3vw" name="getFare">
+      <modelElement href="DesingPatterns.uml#_c4t5YI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaXo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaX44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaYI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4ugcI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaYY4SEe6bpqxgWYl3vw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMaYo4SEe6bpqxgWYl3vw" name="setFare">
+      <modelElement href="DesingPatterns.uml#_c4w8sI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaY44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaZI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMaZY4SEe6bpqxgWYl3vw" name="fare">
+        <modelElement href="DesingPatterns.uml#_c4w8sY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMaZo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaZ44SEe6bpqxgWYl3vw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMaaI4SEe6bpqxgWYl3vw" name="getTicketType">
+      <modelElement href="DesingPatterns.uml#_c4xjwI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMaaY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMaao4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaa44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4yK0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMabI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dVMabY4SEe6bpqxgWYl3vw" name="setTicketType">
+      <modelElement href="DesingPatterns.uml#_c4yx4I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dVMabo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMab44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dVMacI4SEe6bpqxgWYl3vw" name="ticketType">
+        <modelElement href="DesingPatterns.uml#_c4yx4Y4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVMacY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVMaco4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dVMac44SEe6bpqxgWYl3vw" name="toString">
+      <modelElement href="DesingPatterns.uml#_c4zY8I4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVMadI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c411MI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dVMadY4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c42cQI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVMado4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVMad44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVMaeI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c40nEI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVMaeY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dVsJQI4SEe6bpqxgWYl3vw" name="AirportTicket" associationsOut="_dVnQwI4SEe6bpqxgWYl3vw" generalizations="_dVn30I4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c1ipkI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dVsJQY4SEe6bpqxgWYl3vw" position="-498.0,849.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dVsJQo4SEe6bpqxgWYl3vw" label="+"/>
+    <attributes xmi:id="_dVsJQ44SEe6bpqxgWYl3vw" name="generator">
+      <modelElement href="DesingPatterns.uml#_c-9rUI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dVsJRI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c--SYI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dVsJRY4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dVsJRo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dVsJR44SEe6bpqxgWYl3vw" name="TicketGenerator">
+        <modelElement href="DesingPatterns.uml#_c5A0UI4SEe6bpqxgWYl3vw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dVsJSI4SEe6bpqxgWYl3vw" name="AirportTicket">
+      <modelElement href="DesingPatterns.uml#_c-bf0I4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dVsJSY4SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dVswUI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dVswUY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dVswUo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-ct8o4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dVswU44SEe6bpqxgWYl3vw" name="AirportTicket">
+          <modelElement href="DesingPatterns.uml#_c1ipkI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dVswVI4SEe6bpqxgWYl3vw" name="generator">
+        <modelElement href="DesingPatterns.uml#_c-cG4I4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dVswVY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dVswVo4SEe6bpqxgWYl3vw" name="TicketGenerator">
+          <modelElement href="DesingPatterns.uml#_c5A0UI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dV4WgI4SEe6bpqxgWYl3vw" name="KolkataMetroTicketGenerator" associationsOut="_dVxBwI4SEe6bpqxgWYl3vw" generalizations="_dVxo0I4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c27JoI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dV4WgY4SEe6bpqxgWYl3vw" position="-715.0,1017.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dV4Wgo4SEe6bpqxgWYl3vw" label="+"/>
+    <attributes xmi:id="_dV4Wg44SEe6bpqxgWYl3vw" name="ticketType">
+      <modelElement href="DesingPatterns.uml#_c_AuoI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4WhI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_BVsI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4WhY4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dV4Who4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dV4Wh44SEe6bpqxgWYl3vw" name="TicketType">
+        <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dV4WiI4SEe6bpqxgWYl3vw" name="getId">
+      <modelElement href="DesingPatterns.uml#_c28-0I4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4WiY4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c2_bEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4Wio4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c2_bEY4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4Wi44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4WjI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4WjY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c2-M8I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4Wjo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4Wj44SEe6bpqxgWYl3vw" name="getTicketMaterial">
+      <modelElement href="DesingPatterns.uml#_c3ACIY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4WkI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3BQQI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4WkY4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3B3UI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4Wko4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4Wk44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4WlI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3ApMI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4WlY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4Wlo4SEe6bpqxgWYl3vw" name="getFrom">
+      <modelElement href="DesingPatterns.uml#_c3CeYI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4Wl44SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3DsgI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4WmI4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3E6oI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4WmY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4Wmo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4Wm44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3DFcI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4WnI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4WnY4SEe6bpqxgWYl3vw" name="getTo">
+      <modelElement href="DesingPatterns.uml#_c3FhsI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4Wno4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3HW4I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4Wn44SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3JMEI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4WoI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4WoY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4Woo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3Gv0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4Wo44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4WpI4SEe6bpqxgWYl3vw" name="getFare">
+      <modelElement href="DesingPatterns.uml#_c3JMEo4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4WpY4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3KaMI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4Wpo4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3LBQI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4Wp44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4WqI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4WqY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3JzII4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4Wqo4SEe6bpqxgWYl3vw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4Wq44SEe6bpqxgWYl3vw" name="getMetroName">
+      <modelElement href="DesingPatterns.uml#_c3LoUY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4WrI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3OEkI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4WrY4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3OroI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4Wro4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4Wr44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4WsI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3MPYI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4WsY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4Wso4SEe6bpqxgWYl3vw" name="getTicketType">
+      <modelElement href="DesingPatterns.uml#_c3Oroo4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dV4Ws44SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3Qg0I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dV4WtI4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3Ru8I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dV4WtY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4Wto4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4Wt44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3P5wI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4WuI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dV4WuY4SEe6bpqxgWYl3vw" name="KolkataMetroTicketGenerator">
+      <modelElement href="DesingPatterns.uml#_c-o7MI4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dV4Wuo4SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dV4Wu44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dV4WvI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dV4WvY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-piQo4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dV4Wvo4SEe6bpqxgWYl3vw" name="KolkataMetroTicketGenerator">
+          <modelElement href="DesingPatterns.uml#_c27JoI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dV4Wv44SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-o7MY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dV4WwI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dV4WwY4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dWaiAI4SEe6bpqxgWYl3vw" name="TicketGenerator" abstractClass="true" associationsIn="_dVnQwI4SEe6bpqxgWYl3vw" subclassedBy="_dT1vII4SEe6bpqxgWYl3vw _dVxo0I4SEe6bpqxgWYl3vw _dWI1MI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c5A0UI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dWaiAY4SEe6bpqxgWYl3vw" position="-1091.0,33.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dWaiAo4SEe6bpqxgWYl3vw" label="+"/>
+    <operations xmi:id="_dWaiA44SEe6bpqxgWYl3vw" abstractOperation="true" name="getId">
+      <modelElement href="DesingPatterns.uml#_c5DQkI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiBI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiBY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiBo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5D3oI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiB44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWaiCI4SEe6bpqxgWYl3vw" abstractOperation="true" name="getTicketMaterial">
+      <modelElement href="DesingPatterns.uml#_c5EesI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiCY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiCo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiC44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5FFwI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiDI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWaiDY4SEe6bpqxgWYl3vw" abstractOperation="true" name="getFrom">
+      <modelElement href="DesingPatterns.uml#_c5Fs0I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiDo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiD44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiEI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5G68I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiEY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWaiEo4SEe6bpqxgWYl3vw" abstractOperation="true" name="getTo">
+      <modelElement href="DesingPatterns.uml#_c5G68Y4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiE44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiFI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiFY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5IwII4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiFo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWaiF44SEe6bpqxgWYl3vw" abstractOperation="true" name="getFare">
+      <modelElement href="DesingPatterns.uml#_c5J-QI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiGI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiGY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiGo4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5KlUI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiG44SEe6bpqxgWYl3vw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWaiHI4SEe6bpqxgWYl3vw" abstractOperation="true" name="getMetroName">
+      <modelElement href="DesingPatterns.uml#_c5LMYI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiHY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiHo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiH44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5LzcI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiII4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWaiIY4SEe6bpqxgWYl3vw" abstractOperation="true" name="getTicketType">
+      <modelElement href="DesingPatterns.uml#_c5MagI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dWaiIo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWaiI44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWaiJI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5NBkI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWaiJY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dUzYcI4SEe6bpqxgWYl3vw" name="TicketType" associationsIn="_dT1IEI4SEe6bpqxgWYl3vw _dVxBwI4SEe6bpqxgWYl3vw _dWHnEI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dUzYcY4SEe6bpqxgWYl3vw" position="-1896.0,-86.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dUzYco4SEe6bpqxgWYl3vw" label="+"/>
+    <attributes xmi:id="_dUzYc44SEe6bpqxgWYl3vw" name="from">
+      <modelElement href="DesingPatterns.uml#_c_PYII4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUzYdI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_P_MI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUzYdY4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dUzYdo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dUzYd44SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dUzYeI4SEe6bpqxgWYl3vw" name="to">
+      <modelElement href="DesingPatterns.uml#_c_QmQI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUzYeY4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_RNUI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUzYeo4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dUzYe44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dUz_gI4SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_dUz_gY4SEe6bpqxgWYl3vw" name="type">
+      <modelElement href="DesingPatterns.uml#_c_RNUY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUz_go4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_R0YI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUz_g44SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dUz_hI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dUz_hY4SEe6bpqxgWYl3vw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dUz_ho4SEe6bpqxgWYl3vw" name="TicketType">
+      <modelElement href="DesingPatterns.uml#_c5Pd0I4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dUz_h44SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dUz_iI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_iY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUz_io4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5QE4o4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUz_i44SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dUz_jI4SEe6bpqxgWYl3vw" name="from">
+        <modelElement href="DesingPatterns.uml#_c5Pd0Y4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUz_jY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUz_jo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dUz_j44SEe6bpqxgWYl3vw" name="to">
+        <modelElement href="DesingPatterns.uml#_c5Pd0o4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUz_kI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUz_kY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_dUz_ko4SEe6bpqxgWYl3vw" name="type">
+        <modelElement href="DesingPatterns.uml#_c5Pd044SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUz_k44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUz_lI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dUz_lY4SEe6bpqxgWYl3vw" name="getFrom">
+      <modelElement href="DesingPatterns.uml#_c5Qr8I4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dUz_lo4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_l44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUz_mI4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5RTAI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUz_mY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUz_mo4SEe6bpqxgWYl3vw" name="setFrom">
+      <modelElement href="DesingPatterns.uml#_c5R6EI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dUz_m44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_nI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dUz_nY4SEe6bpqxgWYl3vw" name="from">
+        <modelElement href="DesingPatterns.uml#_c5R6EY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUz_no4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUz_n44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dUz_oI4SEe6bpqxgWYl3vw" name="getTo">
+      <modelElement href="DesingPatterns.uml#_c5ShII4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dUz_oY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_oo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUz_o44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5TIMI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUz_pI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUz_pY4SEe6bpqxgWYl3vw" name="setTo">
+      <modelElement href="DesingPatterns.uml#_c5TvQI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dUz_po4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_p44SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dUz_qI4SEe6bpqxgWYl3vw" name="to">
+        <modelElement href="DesingPatterns.uml#_c5TvQY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUz_qY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUz_qo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dUz_q44SEe6bpqxgWYl3vw" name="getType">
+      <modelElement href="DesingPatterns.uml#_c5UWUI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dUz_rI4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_rY4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUz_ro4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5UWUY4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUz_r44SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dUz_sI4SEe6bpqxgWYl3vw" name="setType">
+      <modelElement href="DesingPatterns.uml#_c5U9YI4SEe6bpqxgWYl3vw"/>
+      <visibility xmi:id="_dUz_sY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_so4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_dUz_s44SEe6bpqxgWYl3vw" name="type">
+        <modelElement href="DesingPatterns.uml#_c5VkcI4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dUz_tI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dUz_tY4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_dUz_to4SEe6bpqxgWYl3vw" name="toString">
+      <modelElement href="DesingPatterns.uml#_c5WykI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dUz_t44SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c5XZoI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dUz_uI4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c5YAsI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dUz_uY4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dUz_uo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dUz_u44SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c5WykY4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dUz_vI4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_dWOUwI4SEe6bpqxgWYl3vw" name="MumbaiMetroTicketGenerator" associationsOut="_dWHnEI4SEe6bpqxgWYl3vw" generalizations="_dWI1MI4SEe6bpqxgWYl3vw">
+    <modelElement href="DesingPatterns.uml#_c3oUQI4SEe6bpqxgWYl3vw"/>
+    <visualProperties xmi:id="_dWOUwY4SEe6bpqxgWYl3vw" position="-1266.0,681.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_dWOUwo4SEe6bpqxgWYl3vw" label="+"/>
+    <attributes xmi:id="_dWOUw44SEe6bpqxgWYl3vw" name="ticketType">
+      <modelElement href="DesingPatterns.uml#_c_Cj0I4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOUxI4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c_DK4I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOUxY4SEe6bpqxgWYl3vw" label="~"/>
+      <cardinality xmi:id="_dWOUxo4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <type xmi:id="_dWOUx44SEe6bpqxgWYl3vw" name="TicketType">
+        <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_dWOUyI4SEe6bpqxgWYl3vw" name="getId">
+      <modelElement href="DesingPatterns.uml#_c3r-oI4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOUyY4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3slsY4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOUyo4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c3tMwI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOUy44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOUzI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOUzY4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3slsI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOUzo4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOUz44SEe6bpqxgWYl3vw" name="getTicketMaterial">
+      <modelElement href="DesingPatterns.uml#_c3tMwo4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOU0I4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c3z6cI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOU0Y4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c32WsI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOU0o4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU044SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU1I4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c3tz0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU1Y4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOU1o4SEe6bpqxgWYl3vw" name="getFrom">
+      <modelElement href="DesingPatterns.uml#_c329wY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOU144SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c34L4I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOU2I4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c372QI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOU2Y4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU2o4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU244SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c33k0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU3I4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOU3Y4SEe6bpqxgWYl3vw" name="getTo">
+      <modelElement href="DesingPatterns.uml#_c372Qo4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOU3o4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c39EYI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOU344SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c39rcI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOU4I4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU4Y4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU4o4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c38dUI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU444SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOU5I4SEe6bpqxgWYl3vw" name="getFare">
+      <modelElement href="DesingPatterns.uml#_c4Cj8I4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOU5Y4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c4HccI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOU5o4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c4IDgI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOU544SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU6I4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU6Y4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4DyEI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU6o4SEe6bpqxgWYl3vw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOU644SEe6bpqxgWYl3vw" name="getMetroName">
+      <modelElement href="DesingPatterns.uml#_c4IqkY4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOU7I4SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c4J4sI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOU7Y4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c4KfwI4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOU7o4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU744SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU8I4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4JRoI4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU8Y4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOU8o4SEe6bpqxgWYl3vw" name="getTicketType">
+      <modelElement href="DesingPatterns.uml#_c4Kfwo4SEe6bpqxgWYl3vw"/>
+      <stereotypes xmi:id="_dWOU844SEe6bpqxgWYl3vw" name="LegacyStyledElement">
+        <modelElement href="DesingPatterns.uml#_c4Lt4I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_dWOU9I4SEe6bpqxgWYl3vw" name="Annotations">
+        <modelElement href="DesingPatterns.uml#_c4MU8I4SEe6bpqxgWYl3vw"/>
+      </stereotypes>
+      <visibility xmi:id="_dWOU9Y4SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU9o4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU944SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c4LG0I4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU-I4SEe6bpqxgWYl3vw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_dWOU-Y4SEe6bpqxgWYl3vw" name="MumbaiMetroTicketGenerator">
+      <modelElement href="DesingPatterns.uml#_c-1vgI4SEe6bpqxgWYl3vw"/>
+      <keywords xmi:id="_dWOU-o4SEe6bpqxgWYl3vw" keyword="create"/>
+      <visibility xmi:id="_dWOU-44SEe6bpqxgWYl3vw" label="+"/>
+      <cardinality xmi:id="_dWOU_I4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_dWOU_Y4SEe6bpqxgWYl3vw">
+        <modelElement href="DesingPatterns.uml#_c-2Wko4SEe6bpqxgWYl3vw"/>
+        <type xmi:id="_dWOU_o4SEe6bpqxgWYl3vw" name="MumbaiMetroTicketGenerator">
+          <modelElement href="DesingPatterns.uml#_c3oUQI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_dWOU_44SEe6bpqxgWYl3vw" name="t">
+        <modelElement href="DesingPatterns.uml#_c-1vgY4SEe6bpqxgWYl3vw"/>
+        <cardinality xmi:id="_dWOVAI4SEe6bpqxgWYl3vw" label="1" max="1" min="1"/>
+        <type xmi:id="_dWOVAY4SEe6bpqxgWYl3vw" name="TicketType">
+          <modelElement href="DesingPatterns.uml#_c5NooI4SEe6bpqxgWYl3vw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
