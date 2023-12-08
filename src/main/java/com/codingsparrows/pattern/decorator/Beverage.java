@@ -1,4 +1,4 @@
-package com.codingsparrows.pattern.decorator.BeverageDecorator;
+package com.codingsparrows.pattern.decorator;
 
 public abstract class Beverage {
 

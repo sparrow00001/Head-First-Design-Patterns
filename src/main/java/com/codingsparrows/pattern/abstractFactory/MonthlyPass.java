@@ -1,4 +1,4 @@
-package com.codingsparrows.pattern.abstractFactory.TicketAbstractFactory;
+package com.codingsparrows.pattern.abstractFactory;
 
 public class MonthlyPass extends Ticket{
 	
