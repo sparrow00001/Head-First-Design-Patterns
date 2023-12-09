@@ -1,6 +1,8 @@
 package com.codingsparrows.pattern.command;
 
-public class TVOffCommand extends Command{
+public class TVOffCommand implements Command{
+	
+	Device device;
 	
 	public TVOffCommand(Device device) {
 		this.device=device;
@@ -10,5 +12,11 @@ public class TVOffCommand extends Command{
 	public void execute() {
 		
 		this.device.off();
+	}
+
+	@Override
+	public void undo() {
+		
+		this.device.on();
 	}
 }

@@ -1,8 +1,9 @@
 package com.codingsparrows.pattern.command;
 
-public abstract class Command {
+public interface  Command {
 	
-	Device device;
 	
 	public abstract void execute();
+	
+	public abstract void undo();
 }

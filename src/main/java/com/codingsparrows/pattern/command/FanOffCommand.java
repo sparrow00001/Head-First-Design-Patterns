@@ -1,6 +1,7 @@
 package com.codingsparrows.pattern.command;
 
-public class FanOffCommand extends Command{
+public class FanOffCommand implements Command{
+	Device device;
 	
 	public FanOffCommand(Device device) {
 		this.device=device;
@@ -11,4 +12,11 @@ public class FanOffCommand extends Command{
 		
 		device.off();
 	}
+
+	@Override
+	public void undo() {
+		this.device.on();
+	}
+	
+	
 }

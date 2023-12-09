@@ -4,6 +4,7 @@ public class Remote {
 	
 	Command[] onCommands;
 	Command[] offCommands;
+	Command undoCommand;
 	
 	public Remote() {
 		
@@ -15,6 +16,7 @@ public class Remote {
 			onCommands[i]= noCommand;
 			offCommands[i]=noCommand;
 		}
+		undoCommand=noCommand;
 	}
 	public void setCommand(int slot, Command onCommand, Command offCommand ) {
 		onCommands[slot]=onCommand;
@@ -24,10 +26,15 @@ public class Remote {
 	
 	public void onButtonWasPushed(int slot) {
 		onCommands[slot].execute();
+		undoCommand=onCommands[slot];
 	}
 	
 	public void offButtonWasPushed(int slot) {
 		offCommands[slot].execute();
+		undoCommand=onCommands[slot];
 	}
-
+	
+	public void undoButtonWasPushed() {
+		undoCommand.undo();
+	}
 }
